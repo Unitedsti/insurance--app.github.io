@@ -1,0 +1,135 @@
+@import "../../node_modules//bootstrap/scss/bootstrap.scss";
+
+
+
+
+.inputcard{
+    margin-top: 20px;
+    background-color: #E4BD1A;
+    padding: 0%;
+    margin: 0%;
+    outline: none;
+}
+.box-shadow{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    ;
+}
+.image{
+    text-align: center;
+    margin-top: 90px;
+    width: 100%;
+    margin-left: 160px;
+    text-align: center;
+
+}
+.text{
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 180px;
+}
+.card-title{
+        color: #E4BD1A;
+}
+.card-text{
+    color:"gray"
+}
+.button-id{
+    display: flex;
+}
+.card-text:hover{
+    color:"#FFF";
+}
+button{
+    position: flex;
+    padding: 0%;
+    border: 20px;
+    border-color: #E4BD1A;
+    border-radius: 90px;
+    background-color: white;
+}
+button:hover{
+    background-color: #E4BD1A;
+    color: black;
+}
+.column {
+    float: left;
+    width: 70%;
+    border: inline;
+}
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    text-align: left;
+    margin-left: 200px;
+    
+}
+.buttonInside{
+    position:relative;
+}
+.input-icon{
+    position: absolute;
+    right: 10;
+    height: 30px;
+    bottom: 10;
+    font-size: 28px;
+    line-height: 48px;
+    text-align: left;
+    color: #274077;
+    -webkit-transition: all  200ms linear;
+    transition: all 200ms linear;
+}
+button:hover{
+    background-color: #E4BD1A;
+    color: #274077;
+}
+.column {
+    float: left;
+    width: 70%;
+    border: inline;
+}
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    text-align: left;
+    margin-left: 200px;
+    
+}
+.buttonInside{
+    position:relative;
+}
+.input-icon{
+    position: absolute;
+    top: 5;
+    margin-bottom: 10px;
+    height: 35px;
+    font-size: 25px;
+    line-height: 48px;
+    text-align: left;
+    color: #274077;
+    -webkit-transition: all  200ms linear;
+    transition: all 200ms linear;
+}
+.Card .CardGroup{
+    padding: 0px;
+    margin: 5px;
+
+.column {
+    float: left;
+    width: 70%;
+    border: inline;
+}
+}
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    text-align: left;
+    margin-left: 200px;
+    
+}
